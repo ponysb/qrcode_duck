@@ -1,0 +1,26 @@
+{
+  "name": "qrcode_duck",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "4.x",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jsbarcode": "^3.11.6",
+    "jszip": "^3.10.1",
+    "qrcode-parser": "^2.1.3",
+    "vue": "^3.3.11",
+    "vue-qr": "^4.0.9",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
+}
